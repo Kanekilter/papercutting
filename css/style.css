@@ -1,0 +1,19 @@
+body {
+  padding: 0;
+  margin: 0;
+  overflow:hidden;
+}
+
+div {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/photo.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+canvas {
+  width: 100vw;
+  height: 100vh;
+  mix-blend-mode: overlay;
+}
