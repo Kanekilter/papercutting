@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>海派剪纸艺术知识小测</title>
+
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+<style type="text/css">
+.demo{width:760px; margin:100px auto 10px auto}
+</style>
+
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="quiz.js"></script>
+<script type="text/javascript">
+var init={'questions':[{'question':'在哪一年，“上海剪纸”被列入第一批国家级非物质文化遗产扩展项目名录？','answers':['2005','2008','2012','以上都不是'],'correctAnswer':2},{'question':'在哪一年，“上海剪纸”与河北、陕西等地剪纸作为“中国剪纸”联合申报，入选联合国教科文组织人类非物质文化遗产代表作名录?','answers':['2009','2012','2014','2018'],'correctAnswer':1},{'question':'奚小琴师从____先生，其创作注重对生活的感受，因此作品富有生活气息。','answers':['林曦明','王子淦','赵子平','王建中'],'correctAnswer':2},{'question':'李守白先生由于出生在____，因此喜欢用剪纸作品的形式去讲述当地的市井生活。','answers':['江苏','浙江','陕西','上海'],'correctAnswer':4},{'question':'王建中先生继承了其父王子淦先生的优秀技艺，其作品简练、流畅、神形兼备，极具装饰性。作品大多以____为主。','answers':['“立体剪纸”、“皱纸剪纸”、“彩色剪纸”','展现农村生活','飞禽走兽、花草鸟虫','讲述老上海的市井生活'],'correctAnswer':3},{'question':'____年期间，是海派剪纸艺术发展的鼎盛时期。经过王子淦和林曦明两位大师的传承，带出了多位艺术造诣很高的传承者。','answers':['1930-1950','2007-2019','1950-1980','1980-2007'],'correctAnswer':4},{'question':'1930年-1950年期间，上海剪纸已有出现，起始于:','answers':['上海老城厢和徐家汇地区','上海静安区','上海黄浦区','上海嘉定区'],'correctAnswer':1},{'question':'为了弘扬这一非遗项目，通过多种形式传承发扬剪纸艺术,例如:','answers':['创立《海派剪纸》艺术专刊','创立《剪纸艺术》艺术专刊','创立《上海剪纸》艺术专刊','创立《剪纸》艺术专刊'],'correctAnswer':3}]};
+
+$(function(){
+	$('#quiz-container').jquizzy({
+        questions: init.questions
+    });
+});
+</script>
+</head>
+<body>
+	<div class='card-holder'>
+  <div class='card-wrapper'>
+    <a href='index.html'>
+      <div class='card bg-01'>
+        <span class='card-content'>首页</span>
+      </div>
+    </a>
+  </div>
+		<div class='card-wrapper'>
+    <a href='index2.html'>
+      <div class='card bg-02'>
+        <span class='card-content'>导航页</span>
+      </div>
+    </a>
+  </div>
+		<div class='card-wrapper'>
+    <a href='history.html'>
+      <div class='card bg-03'>
+        <span class='card-content'>起源与传承</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='artist.html'>
+      <div class='card bg-04'>
+        <span class='card-content'>大师简介</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='appreciate.html'>
+      <div class='card bg-05'>
+        <span class='card-content'>作品欣赏</span>
+      </div>
+    </a>
+  </div>
+		<div class='card-wrapper'>
+    <a href='development.html'>
+      <div class='card bg-06'>
+        <span class='card-content'>发展现状</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='check.html'>
+      <div class='card bg-07'>
+        <span class='card-content'>大家来找茬</span>
+      </div>
+    </a>
+  </div>
+  <div class='card-wrapper'>
+    <a href='test.html'>
+      <div class='card bg-08'>
+        <span class='card-content'>知识小测</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="demo">
+	<div id='quiz-container'></div>
+</div>
+</body>
+</html>
